@@ -1,0 +1,213 @@
+/*
+
+
+*/
+*{
+    margin:0 0;
+    padding:0 0;
+    font-family:arial, Arial, Helvetica, sans-serif;
+}
+.container{
+    width:80%;
+    border:none;
+    margin:0% auto;
+    padding:1%;
+}
+.logo{
+    width:10%;
+    height:10%;
+    border:1px solid black;
+    float:left;
+}
+.img-responsive{
+    width:100%;
+    height:100%;
+}
+.img-curve{
+    border-radius: 12px;
+}
+.text-right{
+    text-align:right;
+}
+.text-center{
+    text-align:center;
+}
+.text-white{
+    color:white; 
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display:inline;
+    padding:1%;
+    font-weight: bold;
+}
+.clearfix{
+    clear:both;
+    float:none;
+}
+.menu {
+    line-height:50px;
+}
+a{
+    color:#ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color:#e63946;
+}
+
+.searchbar{
+    border-radius: 7px;
+}
+.btn1{
+    padding:1%;
+    border:none;
+    font-size: 1rem;
+    border-radius:5px;
+}
+.btn1-primary{
+    background-color:#e63946;
+    color:azure;
+    cursor: pointer;
+}
+.btn1-primary:hover{
+    color:white;
+    background:#d90429;
+}
+h2{
+    color:#2f3542;
+    font-size:2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position:relative;
+}
+.float-text{
+    position:absolute;
+    bottom:40px;
+    left:40%;
+}
+/* css for food search*/
+.food_search{
+    background-image: url(../images/foodSearch.jpg);
+    background-size:cover;
+    padding:7% 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.food_search input[type="search"]{
+    width:50%;
+    height:3%;
+    padding:1%;
+    font-size: 1rem;
+    border:none;
+}
+/* Css for Category */
+.categories{
+    padding:3% 0;
+}
+.box-3{
+    border:none;
+    width:30%;
+    float:left;
+    margin:1%
+}
+/* Css for food menu */
+.food_menu{
+    background-color: #ececec;
+    padding:4%;
+}
+.food_menu_box{
+    border:none;
+    width:40%;
+    margin:1%;
+    padding:2%;
+    float:left;
+    background-color: white;
+    border-radius: 12px;
+}
+.food_menu_img{
+    width:20%;
+    float:left;
+}
+.food_menu_desc{
+width:70%;
+float:left;
+margin-left:5%;
+}
+.food_price{
+    font: size 1.2rem;
+    margin:1% 0;
+}
+.food_detail{
+    font-size: 1rem;
+    color:#747d8c;
+}
+
+/* css for social media section */
+
+.social ul li{
+    display:inline;
+    padding:2%;
+}
+
+.input-responsive{
+    width:50%;
+    height:3%;
+    padding:1%;
+    font-size: 1rem;
+    border:none;
+    background-color: white;
+    border-radius: 12px;
+}
+/* css for mobile size */
+@media only screen and(max-width:768px){
+    .logo {  
+        width:50%;
+        height:50%;
+        float:none;
+        margin:1% auto;
+    }
+ 
+    .menu ul{
+        text-align:center;
+    }
+    .food_search input[type="search"]{
+        width:80%;
+        padding:2%;
+        margin-bottom:3%;
+    }
+    .btn1{
+        width:50%;
+        padding:2%;
+        margin:2%;
+    }
+    .food_search{
+        padding:10% 0;
+    }
+    h2{
+        margin-bottom: 5%;
+    }
+    .box-3{
+        width:90%;
+        margin:4% auto;
+    }
+    .food_menu{
+        padding:20% 0;
+    }
+    .food_menu_box{
+        width:90%;
+        padding:5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding:5% 0;
+    }
+}
